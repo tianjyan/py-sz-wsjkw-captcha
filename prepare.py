@@ -59,7 +59,7 @@ def work(prefix):
 
     for file in files:
         print(file)
-        img1, img2, img3, img4 = paa(file);
+        img1, img2, img3, img4 = paa(file)
         px(prefix, img1, img2, img3, img4)
         py(prefix, results[file])
 
